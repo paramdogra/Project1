@@ -1,0 +1,141 @@
+*{padding:0;
+margin: 0;
+box-sizing: border-box;}
+.container{
+    width:100% ;
+}
+body{overflow-x: hidden;}
+.image1{
+    width:100%;
+height:500px;
+object-fit: cover;
+}
+.Button1{width:230px;
+height:55px;
+background-color:#170df2;
+color:#fff;
+padding: 15px;
+outline: none;
+border:0px;
+}
+.Button1:hover{
+    background-color:#141414;
+}
+.bg-white{
+    background-color: #fff !important;
+}
+
+
+.row2{
+    background-color: #333 !important;
+    margin-top: 80px;
+}
+
+.row3{
+    background-color: #333 !important;
+   
+}
+.carsection{background-image:url("./image/banner1.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+padding-block:150px  ;}
+
+h1{color:#fff ;
+font-size:45px;}
+
+.mt-6{margin-top:80px;}
+.mb-7{margin-bottom:80px;}
+.p-6{padding:100px}
+
+.pod{
+    width:100%;
+height:300px;
+object-fit: cover;
+}
+h2{color:#170df2;}
+h3{color:#fff ;font-size: 24px;
+    padding-top:20px;}
+
+
+    h1,h2,h3,h4{font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:  40px; }
+    p{font-family: Helvetica, sans-serif;
+        line-height:180% }
+
+        .carsection1{background-image:url("./image/maserati-019.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-block:150px  ;}
+
+            .my-6{margin: 90px 0px }
+
+            a{color:white;
+            text-decoration: none;}
+
+            .mail,.phone{
+                color:#170df2;
+                text-decoration: underline;
+            }
+
+            .nav-link:hover{text-decoration:underline;
+                text-underline-offset: 8px;
+
+                color:#170df2;
+            }
+
+            a:active {
+                color:#170df2;
+                text-decoration:underline;
+                text-underline-offset: 8px;
+              }
+
+              .Button1 a:hover{color:#fff;
+                text-decoration: none;}
+
+                .px-6{padding:10px 40px 10px 40px;}
+
+                @media(max-width:768px)
+                {
+                    .pods-mv {
+                        padding: 80px 51px 30px 30px
+                    
+                    }
+
+
+                    .test-mv{
+                        padding: 50px;
+                    }
+
+                    .mt-6
+                    
+                    {
+                        margin-top: 45px;
+                    }
+
+                    .carsection {
+                        padding-block: 60px;
+
+                }
+                .footer-mv {
+                    text-align:center;
+                    padding: 0 40px ;
+                }
+                
+            }
+               
+
+            @media(max-width:420px)
+            {
+
+                .carsection1{
+                    
+                    padding-block: 50px;
+                    
+                  }
+                  .p-6 {
+                    padding: 30px 30px 0px 30px;
+                  }
+
+            }
+        
